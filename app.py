@@ -91,7 +91,7 @@ for i in range(3):
         error = traceback.format_exc()
         driver.close()
         print('Ocorreu um erro: ', error)
-        print('\nRecomeçando em 5 segundos caso ainda tenha phones para enviar mensagem...')
+        print('\nRecomeçando em 5 segundos caso ainda tenha telefones para enviar mensagem...')
         time.sleep(5)
 
 os._exit(0)
