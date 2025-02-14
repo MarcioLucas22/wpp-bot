@@ -16,7 +16,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 if not utils.excel_exists(utils.root_directory + '\\' + utils.excel_name):
-    print('Excel "phones.xlsx" não existe. Criando um novo...')
+    print('Excel "telefones.xlsx" não existe. Criando um novo...')
     utils.create_excel()
     print('Excel criado com sucesso!')
     print('Gentileza preenchê-lo com as informações necessárias para dar continuidade.')
